@@ -1,0 +1,153 @@
+body{
+    margin: 0%;
+}
+body{
+    background-image: url("https://www.mpl.live/blog/wp-content/uploads/2022/05/free-agent-football.jpg");
+    background-size: cover;
+    /* padding-top: 30px; */
+    height: 100%;
+    width: 100%;
+}
+
+.opaque-background{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(224, 255, 47);
+    opacity: 0.3;
+}
+.wrapper{
+    position: relative;
+    padding-top: 30px;
+}
+
+.title{
+    /* background-color: greenyellow; */
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 50px;
+}
+.sub-heading{
+    /* background-color: rgb(208, 255, 138); */
+    text-align: center;
+    margin: 0%;
+    height: 40px;
+    padding-top: 19px;
+}
+#search-name{
+    /* background-color: rgb(208, 255, 138); */
+    text-align: center;
+    margin-bottom: 30px;
+}
+#display{
+    /* background-color: rgb(208, 255, 138); */
+    width: 20%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.name{
+    display: inline-block;
+    height: 35px;
+    width: 20%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    margin-right: 10px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+}
+.country{
+    display: inline-block;
+    height: 35px;
+    width: 21%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    margin-right: 10px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+}
+.goals{
+    display: inline-block;
+    height: 35px;
+    width: 20%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    margin-right: 10px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+}
+.delete{
+    display: inline-block;
+    height: 35px;
+    width: 60px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: rgba(214, 250, 161, 0.925);
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.delete:hover{
+    background-color: red;
+}
+.name-heading{
+    display: inline-block;
+    height: 35px;
+    width: 21%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-size: x-large;
+    font-weight: bold;
+}
+.country-heading{
+    display: inline-block;
+    height: 35px;
+    width: 18%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-size: x-large;
+    font-weight: bold;
+}
+.goals-heading{
+    display: inline-block;
+    height: 35px;
+    width: 20%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-size: x-large;
+    font-weight: bold;
+}
+
+li{
+    margin-left: 20%;
+}
+
+ul{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.hide-text{
+    font-size: large;
+    font-weight: bold;
+}
+
+#add-player{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.add-button{
+    border-width: 1px;
+    font-weight: bold;
+}
+.add-button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

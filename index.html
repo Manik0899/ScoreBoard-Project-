@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score-Board</title>
+    <link rel="stylesheet" href="./css/board.css">
+</head>
+
+<body>
+    <div class="opaque-background"></div>
+    <div id="wrapper" class="wrapper">
+        <header>
+            <div id="banner" class="banner">
+                <h1 class="title">FOOTBALL SCORE-BOARD</h1>
+                <h3 class="sub-heading">Latest Updated 2023 Scores of Players</h3>
+                <form id="search-name">
+                    <input type="text" placeholder="Search Player By Name......" id="display">
+                </form>
+            </div>
+        </header>
+
+        <main>
+            <ul>
+                <li class="list-items">
+                    <span class="name-heading">Name</span><span class="country-heading">Country</span><span
+                        class="goals-heading">Goals Taken</span><span class="delete-heading"></span>
+                </li>
+            </ul>
+
+            <div id="scores-list">
+                <ol>
+                    <!-- <li class="list-items">
+                        <span class="name">Messi</span><span class="country">Argentina</span><span class="goals">3</span><span
+                            class="delete">Delete</span>
+                    </li> -->
+                </ol>
+            </div>
+            <form id="add-player">
+                <input type="checkbox" id="hide" />
+                <label for="hide" class="hide-text"> Click to Hide the Player's list</label><br><br><br>
+                <input type="text" placeholder="Add a player..." id="player" />
+                <input type="text" placeholder="Country..." id="country" />
+                <input type="number" placeholder="Score..." />
+                <button class="add-button">Add</button>
+            </form>
+        </main>
+    </div>
+
+    <script src="./js/board.js"></script>
+</body>
+
+</html>
