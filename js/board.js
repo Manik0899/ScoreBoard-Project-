@@ -58,7 +58,7 @@ searchForm.addEventListener("keyup", function(e){
     var searchItem = list.querySelectorAll("li");
 
     for(var i=0; i<searchItem.length; i++){
-        if(searchItem[i].textContent.toUpperCase().indexOf(e.target.value.toUpperCase()) >-1){
+        if(searchItem[i].children[0].textContent.toUpperCase().indexOf(e.target.value.toUpperCase()) >-1){
             searchItem[i].style.display = "block";
         }
         else{
